@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>動態特效網站規則 SOP | 版塊設計 Block Studio</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <meta name="description" content="版塊Block Studio位於台北，成立於2015年，主力於網站設計與品牌識別。我們針對品牌風格、品牌核心、網站內容分析後客製設計，能在現實框架中找出未知的新可能。">
+    <meta property="og:locale" content="zh_TW"/>
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="動態特效網站規則 SOP | 版塊設計 Block Studio" />
+    <meta property="og:description" content="版塊Block Studio位於台北，成立於2015年，主力於網站設計與品牌識別。我們針對品牌風格、品牌核心、網站內容分析後客製設計，能在現實框架中找出未知的新可能。" />
+    <meta property="og:url" content="https://blockstudio.tw/blog/web-animation-sop/"/>
+    <meta property="og:site_name" content="版塊設計 Block Studio"/>
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image" content="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/動態特效網站規則SOP.jpg" />
+    <meta property="og:image:alt" content="版塊Block Studio位於台北，成立於2015年，主力於網站設計與品牌識別。我們針對品牌風格、品牌核心、網站內容分析後客製設計，能在現實框架中找出未知的新可能。" />
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:description" content="版塊Block Studio位於台北，成立於2015年，主力於網站設計與品牌識別。我們針對品牌風格、品牌核心、網站內容分析後客製設計，能在現實框架中找出未知的新可能。"/>
+    <meta name="twitter:title" content="動態特效網站規則 SOP | 版塊設計 Block Studio"/>
+    <meta name="twitter:image" content="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/動態特效網站規則SOP.jpg"/>
+    <meta itemprop="name" content="動態特效網站規則 SOP | 版塊設計 Block Studio">
+    <meta itemprop="description" content="版塊Block Studio位於台北，成立於2015年，主力於網站設計與品牌識別。我們針對品牌風格、品牌核心、網站內容分析後客製設計，能在現實框架中找出未知的新可能。">
+    <meta itemprop="image" content="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/動態特效網站規則SOP.jpg">
+    <link rel="shortcut icon" type="image/ico" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/favicon-16x16.png">
+    <link rel="manifest" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/manifest.json"> 
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/ico/ms-icon-144x144.png"> 
+    <meta name="theme-color" content="#ffffff">
+    <style type="text/css">#animationShape{position:fixed;height:100%;width:calc(100% - 10px);left:5px;top:0;z-index:100000000;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;pointer-events:none;overflow:hidden}@media all and (min-width:768px){#animationShape{height:calc(100% - 40px);width:calc(100% - 40px);top:20px;left:20px}}#animationShape .shape{content:"";width:100%;height:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}#animationShape .shape:before{content:"";width:100%;height:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;-webkit-transform:scale(0,1);-ms-transform:scale(0,1);transform:scale(0,1);-webkit-transform-origin:100% 100%;-ms-transform-origin:100% 100%;transform-origin:100% 100%;background:#40587c}#animationShape .shape:nth-child(2){z-index:1}#animationShape .shape:nth-child(2):before{background:#fff;-webkit-transition:-webkit-transform 1s .5s cubic-bezier(.7,0,.3,1);transition:-webkit-transform 1s .5s cubic-bezier(.7,0,.3,1);-o-transition:transform 1s .5s cubic-bezier(.7,0,.3,1);transition:transform 1s .5s cubic-bezier(.7,0,.3,1);transition:transform 1s .5s cubic-bezier(.7,0,.3,1),-webkit-transform 1s .5s cubic-bezier(.7,0,.3,1)}#animationShape .shape:first-child{z-index:2;-webkit-transition:-webkit-transform 1s 0s cubic-bezier(.7,0,.3,1);transition:-webkit-transform 1s 0s cubic-bezier(.7,0,.3,1);-o-transition:transform 1s 0s cubic-bezier(.7,0,.3,1);transition:transform 1s 0s cubic-bezier(.7,0,.3,1);transition:transform 1s 0s cubic-bezier(.7,0,.3,1),-webkit-transform 1s 0s cubic-bezier(.7,0,.3,1)}#animationShape .shape:first-child:before{background:#40587c;-webkit-transition:-webkit-transform 1s 0s cubic-bezier(.7,0,.3,1);transition:-webkit-transform 1s 0s cubic-bezier(.7,0,.3,1);-o-transition:transform 1s 0s cubic-bezier(.7,0,.3,1);transition:transform 1s 0s cubic-bezier(.7,0,.3,1);transition:transform 1s 0s cubic-bezier(.7,0,.3,1),-webkit-transform 1s 0s cubic-bezier(.7,0,.3,1)}#animationShape.loading{pointer-events:auto}#animationShape.loading .center-box{opacity:1}#animationShape.loading .center-box .block:nth-child(1):before{-webkit-animation-delay:-2s;animation-delay:-2s}#animationShape.loading .center-box .block:nth-child(2):before{-webkit-animation-delay:-1.8s;animation-delay:-1.8s}#animationShape.loading .center-box .block:nth-child(3):before{-webkit-animation-delay:-1.6s;animation-delay:-1.6s}#animationShape.loading .center-box .block:nth-child(4):before{-webkit-animation-delay:-1.4s;animation-delay:-1.4s}#animationShape.loading .center-box .block:nth-child(5):before{-webkit-animation-delay:-1.2s;animation-delay:-1.2s}#animationShape.loading .center-box .block:before{will-change:transform;-webkit-animation:shapeOut 2s infinite cubic-bezier(.7,0,.3,1) forwards;animation:shapeOut 2s infinite cubic-bezier(.7,0,.3,1) forwards}#animationShape.loading .shape:before{-webkit-transform:scale(1,1);-ms-transform:scale(1,1);transform:scale(1,1)}#animationShape.loading .shape:first-child{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}@-webkit-keyframes shapeOut{0%{-webkit-transform:scale(0,1) translate3d(0,0,0);transform:scale(0,1) translate3d(0,0,0);-webkit-transform-origin:0 0;transform-origin:0 0}49.999%{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-transform-origin:0 0;transform-origin:0 0}50%{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-transform-origin:100% 0;transform-origin:100% 0}100%{-webkit-transform:scale(0,1) translate3d(0,0,0);transform:scale(0,1) translate3d(0,0,0);-webkit-transform-origin:100% 0;transform-origin:100% 0}}@keyframes shapeOut{0%{-webkit-transform:scale(0,1) translate3d(0,0,0);transform:scale(0,1) translate3d(0,0,0);-webkit-transform-origin:0 0;transform-origin:0 0}49.999%{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-transform-origin:0 0;transform-origin:0 0}50%{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-transform-origin:100% 0;transform-origin:100% 0}100%{-webkit-transform:scale(0,1) translate3d(0,0,0);transform:scale(0,1) translate3d(0,0,0);-webkit-transform-origin:100% 0;transform-origin:100% 0}}.center-box{z-index:4;position:absolute;top:50%;left:50%;-webkit-transform:translate3d(-50%,-50%,0);transform:translate3d(-50%,-50%,0);width:187.5px;display:table;height:auto;margin-top:-5px;opacity:0;-webkit-transition:.5s cubic-bezier(.7,0,.3,1);-o-transition:.5s cubic-bezier(.7,0,.3,1);transition:.5s cubic-bezier(.7,0,.3,1)}.center-box .block{border:1px solid #40587c;height:10px;margin-bottom:5px;position:relative;overflow:hidden}.center-box .block:before{content:"";width:calc(100% + 2px);height:calc(100% + 2px);background:#40587c;position:absolute;top:0;left:0;-webkit-transform:scale(0,1);-ms-transform:scale(0,1);transform:scale(0,1);-webkit-transform-origin:0 0;-ms-transform-origin:0 0;transform-origin:0 0}.center-box .block:first-child{width:50%}.center-box .block:nth-child(2){width:70%}.center-box .block:nth-child(3){width:25%;margin-right:5px}.center-box .block:nth-child(4){width:70%;margin-left:calc(25% + 5px);margin-top:-15px}.center-box .block:nth-child(5){width:60%}@-webkit-keyframes shape{0%{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-transform-origin:100% 0;transform-origin:100% 0}49%{-webkit-transform:scale(0,1) translate3d(0,0,0);transform:scale(0,1) translate3d(0,0,0);-webkit-transform-origin:100% 0;transform-origin:100% 0}51%{-webkit-transform:scale(0,1) translate3d(0,0,0);transform:scale(0,1) translate3d(0,0,0);-webkit-transform-origin:0 0;transform-origin:0 0}100%{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-transform-origin:0 0;transform-origin:0 0}}@keyframes shape{0%{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-transform-origin:100% 0;transform-origin:100% 0}49%{-webkit-transform:scale(0,1) translate3d(0,0,0);transform:scale(0,1) translate3d(0,0,0);-webkit-transform-origin:100% 0;transform-origin:100% 0}51%{-webkit-transform:scale(0,1) translate3d(0,0,0);transform:scale(0,1) translate3d(0,0,0);-webkit-transform-origin:0 0;transform-origin:0 0}100%{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-transform-origin:0 0;transform-origin:0 0}}#wrapper #about .about-container,#wrapper #about .banner,#wrapper #career .big-header,#wrapper #career .main-box,#wrapper #contact .big-header,#wrapper #contact .contact-information,#wrapper #contact .form-container,#wrapper #contact .map,#wrapper #index #zoomMap,#wrapper #index .tabBrand,#wrapper #index .tabCareer,#wrapper #index .tabForm,#wrapper #service .big-header,#wrapper #service .single-service,#wrapper #single-project .info-container,#wrapper #single-project .intro-container,#wrapper .nav .logo,#wrapper .nav .marquee-part,#wrapper .nav .projectList,#wrapper .nav .time,#wrapper .nav .weather{position:relative}#wrapper #about .about-container:before,#wrapper #about .banner:before,#wrapper #career .big-header:before,#wrapper #career .main-box:before,#wrapper #contact .big-header:before,#wrapper #contact .contact-information:before,#wrapper #contact .form-container:before,#wrapper #contact .map:before,#wrapper #index #zoomMap:before,#wrapper #index .tabBrand:before,#wrapper #index .tabCareer:before,#wrapper #index .tabForm:before,#wrapper #service .big-header:before,#wrapper #service .single-service:before,#wrapper #single-project .info-container:before,#wrapper #single-project .intro-container:before,#wrapper .nav .logo:before,#wrapper .nav .marquee-part:before,#wrapper .nav .projectList:before,#wrapper .nav .time:before,#wrapper .nav .weather:before{content:"";width:100%;height:100%;position:absolute;top:0;left:0;background:#40587c;-webkit-transform:scale(0,1) translate3d(0,0,0);transform:scale(0,1) translate3d(0,0,0);-webkit-transform-origin:0 0;-ms-transform-origin:0 0;transform-origin:0 0;-webkit-animation:shapeOut 1s 1.3s forwards;animation:shapeOut 1s 1.3s forwards;z-index:30;pointer-events:none}@media all and (max-width:767px){#wrapper #contact .big-header:before,#wrapper #service .big-header:before{height:calc(100% + 26px);top:-26px}}#wrapper .nav .logo:before{-webkit-animation-delay:1.3s;animation-delay:1.3s}#wrapper .nav .logo img{-webkit-transition:opacity 0s 1.8s ease;-o-transition:opacity 0s 1.8s ease;transition:opacity 0s 1.8s ease}#wrapper .nav .time{position:relative}#wrapper .nav .time:before{-webkit-animation-delay:1.4s;animation-delay:1.4s}#wrapper .nav .time #currentTime,#wrapper .nav .time .clock{-webkit-transition:opacity 0s 1.9s ease;-o-transition:opacity 0s 1.9s ease;transition:opacity 0s 1.9s ease}#wrapper .nav .weather{position:relative}#wrapper .nav .weather:before{-webkit-animation-delay:1.5s;animation-delay:1.5s}#wrapper .nav .weather #currentTemp{-webkit-transition:opacity 0s 2s ease;-o-transition:opacity 0s 2s ease;transition:opacity 0s 2s ease}#wrapper .nav .marquee-part{position:relative}#wrapper .nav .marquee-part:before{-webkit-animation-delay:1.6s;animation-delay:1.6s}#wrapper .nav .marquee-part .marquee{-webkit-transition:opacity 0s 2.1s ease;-o-transition:opacity 0s 2.1s ease;transition:opacity 0s 2.1s ease;overflow:hidden}#wrapper .nav .marquee-part .marquee .box{padding-left:100%;-webkit-animation:marqee 40s 3.1s infinite linear forwards;animation:marqee 40s 3.1s infinite linear forwards;-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0);overflow:hidden}#wrapper .nav .projectList:before{-webkit-animation-delay:1.3s;animation-delay:1.3s}@media all and (min-width:768px){#wrapper .nav .projectList:before{-webkit-animation-delay:1.7s;animation-delay:1.7s}}#wrapper .nav .projectList a{-webkit-transition:opacity 0s 1.8s ease;-o-transition:opacity 0s 1.8s ease;transition:opacity 0s 1.8s ease}@media all and (min-width:768px){#wrapper .nav .projectList a{-webkit-transition:opacity 0s 2.2s ease;-o-transition:opacity 0s 2.2s ease;transition:opacity 0s 2.2s ease}}#wrapper #single-project .intro-container .main-content,#wrapper #single-project .intro-container .other-project{-webkit-transition:opacity 0s 1.8s ease;-o-transition:opacity 0s 1.8s ease;transition:opacity 0s 1.8s ease}#wrapper #single-project .intro-container:before{-webkit-animation-delay:1.4s;animation-delay:1.4s}#wrapper #single-project .info-container .inner-box{-webkit-transition:opacity 0s 1.9s ease;-o-transition:opacity 0s 1.9s ease;transition:opacity 0s 1.9s ease}#wrapper #single-project .info-container:before{-webkit-animation-delay:1.3s;animation-delay:1.3s}#wrapper #about .banner:before{-webkit-animation-delay:1.3s;animation-delay:1.3s}#wrapper #about .banner .main-info{-webkit-transition:opacity 0s 1.8s ease;-o-transition:opacity 0s 1.8s ease;transition:opacity 0s 1.8s ease}#wrapper #about .banner .swiper-container{-webkit-transition:opacity 0s 1.8s ease;-o-transition:opacity 0s 1.8s ease;transition:opacity 0s 1.8s ease}#wrapper #about .banner .swiper-pagination{-webkit-transition:opacity 0s 1.8s ease;-o-transition:opacity 0s 1.8s ease;transition:opacity 0s 1.8s ease}#wrapper #about .banner .inner{-webkit-transition:opacity 0s 1.8s ease;-o-transition:opacity 0s 1.8s ease;transition:opacity 0s 1.8s ease}#wrapper #about .about-container:before{-webkit-animation-delay:1.4s;animation-delay:1.4s;-webkit-animation-duration:1s;animation-duration:1s}@media all and (min-width:1025px){#wrapper #about .about-container:before{-webkit-animation-duration:1.3s;animation-duration:1.3s}}#wrapper #about .about-container .infomation{-webkit-transition:opacity 0s 1.9s ease;-o-transition:opacity 0s 1.9s ease;transition:opacity 0s 1.9s ease}@media all and (min-width:1025px){#wrapper #about .about-container .infomation{-webkit-transition:opacity 0s 2.05s ease;-o-transition:opacity 0s 2.05s ease;transition:opacity 0s 2.05s ease}}#wrapper #about .about-container .gallery{-webkit-transition:opacity 0s 1.9s ease;-o-transition:opacity 0s 1.9s ease;transition:opacity 0s 1.9s ease}@media all and (min-width:1025px){#wrapper #about .about-container .gallery{-webkit-transition:opacity 0s 2.05s ease;-o-transition:opacity 0s 2.05s ease;transition:opacity 0s 2.05s ease}}#wrapper #service .big-header:before{-webkit-animation-delay:1.3s;animation-delay:1.3s}#wrapper #service .big-header .title,#wrapper #service .big-header .vicetitle{-webkit-transition:opacity 0s 1.8s ease;-o-transition:opacity 0s 1.8s ease;transition:opacity 0s 1.8s ease}#wrapper #service .single-service:nth-child(1):before{-webkit-animation-delay:1.7s;animation-delay:1.7s}#wrapper #service .single-service:nth-child(1) .inner{-webkit-transition:opacity 0s 2.2s ease;-o-transition:opacity 0s 2.2s ease;transition:opacity 0s 2.2s ease}#wrapper #service .single-service:nth-child(2):before{-webkit-animation-delay:1.9s;animation-delay:1.9s}#wrapper #service .single-service:nth-child(2) .inner{-webkit-transition:opacity 0s 2.4s ease;-o-transition:opacity 0s 2.4s ease;transition:opacity 0s 2.4s ease}#wrapper #service .single-service:nth-child(3):before{-webkit-animation-delay:2.1s;animation-delay:2.1s}#wrapper #service .single-service:nth-child(3) .inner{-webkit-transition:opacity 0s 2.6s ease;-o-transition:opacity 0s 2.6s ease;transition:opacity 0s 2.6s ease}#wrapper #career .big-header:before{-webkit-animation-delay:1.3s;animation-delay:1.3s}#wrapper #career .big-header .note-btn,#wrapper #career .big-header .title,#wrapper #career .big-header .vicetitle{-webkit-transition:opacity 0s 1.8s ease;-o-transition:opacity 0s 1.8s ease;transition:opacity 0s 1.8s ease}#wrapper #career .main-box:before{-webkit-animation-delay:1.7s;animation-delay:1.7s}#wrapper #career .career,#wrapper #career .inner-box,#wrapper #career .tabpanel{-webkit-transition:opacity 0s 2.1s ease;-o-transition:opacity 0s 2.1s ease;transition:opacity 0s 2.1s ease}#wrapper #contact .big-header:before{-webkit-animation-delay:1.3s;animation-delay:1.3s}#wrapper #contact .big-header .title,#wrapper #contact .big-header .vicetitle{-webkit-transition:opacity 0s 1.8s ease;-o-transition:opacity 0s 1.8s ease;transition:opacity 0s 1.8s ease}#wrapper #contact .form-container{background:#40587c;-webkit-transition:background 0s 2.2s ease;-o-transition:background 0s 2.2s ease;transition:background 0s 2.2s ease}#wrapper #contact .form-container:before{-webkit-animation-delay:1.7s;animation-delay:1.7s}#wrapper #contact .form-container>*{-webkit-transition:opacity 0s 2.2s ease;-o-transition:opacity 0s 2.2s ease;transition:opacity 0s 2.2s ease}#wrapper #contact .contact-information:before{-webkit-animation-delay:1.9s;animation-delay:1.9s}#wrapper #contact .contact-information>*{-webkit-transition:opacity 0s 2.4s ease;-o-transition:opacity 0s 2.4s ease;transition:opacity 0s 2.4s ease}#wrapper #contact .map{overflow:hidden}#wrapper #contact .map:before{-webkit-animation-delay:2.1s;animation-delay:2.1s}#wrapper #contact .map>*{-webkit-transition:opacity 0s 2.6s ease;-o-transition:opacity 0s 2.6s ease;transition:opacity 0s 2.6s ease}#wrapper #fixedMap{-webkit-transition:opacity 0s 2.6s ease;-o-transition:opacity 0s 2.6s ease;transition:opacity 0s 2.6s ease}#wrapper #index #zoomMap .inner-box{-webkit-transition:opacity 0s 1.8s ease;-o-transition:opacity 0s 1.8s ease;transition:opacity 0s 1.8s ease}#wrapper #index #zoomMap:before{-webkit-animation-delay:1.3s;animation-delay:1.3s}#wrapper #index .tabForm .cube__face{-webkit-transition:opacity 0s 2.3s ease;-o-transition:opacity 0s 2.3s ease;transition:opacity 0s 2.3s ease}@media all and (min-width:1025px){#wrapper #index .tabForm .cube__face{-webkit-transition:opacity 0s 2.15s ease;-o-transition:opacity 0s 2.15s ease;transition:opacity 0s 2.15s ease}}#wrapper #index .tabForm:before{-webkit-animation-delay:1.8s;animation-delay:1.8s;-webkit-animation-duration:1s;animation-duration:1s}@media all and (min-width:1025px){#wrapper #index .tabForm:before{-webkit-animation-duration:.7s!important;animation-duration:.7s!important}}#wrapper #index #question{will-change:transform;-webkit-transform:scale(1,1);-ms-transform:scale(1,1);transform:scale(1,1);-webkit-animation:4s question ease forwards infinite;animation:4s question ease forwards infinite;-webkit-animation-delay:2.3s;animation-delay:2.3s}@media all and (min-width:1025px){#wrapper #index #question{-webkit-animation-delay:2.15s;animation-delay:2.15s}}#wrapper #index .tabBrand .cube__face{-webkit-transition:opacity 0s 2.4s ease;-o-transition:opacity 0s 2.4s ease;transition:opacity 0s 2.4s ease}@media all and (min-width:1025px){#wrapper #index .tabBrand .cube__face{-webkit-transition:opacity 0s 2.25s ease;-o-transition:opacity 0s 2.25s ease;transition:opacity 0s 2.25s ease}}#wrapper #index .tabBrand:before{-webkit-animation-delay:1.9s;animation-delay:1.9s;-webkit-animation-duration:1s;animation-duration:1s}@media all and (min-width:1025px){#wrapper #index .tabBrand:before{-webkit-animation-duration:.7s!important;animation-duration:.7s!important}}#wrapper #index .tabCareer .cube__face{-webkit-transition:opacity 0s 2.5s ease;-o-transition:opacity 0s 2.5s ease;transition:opacity 0s 2.5s ease}@media all and (min-width:1025px){#wrapper #index .tabCareer .cube__face{-webkit-transition:opacity 0s 2.35s ease;-o-transition:opacity 0s 2.35s ease;transition:opacity 0s 2.35s ease}}#wrapper #index .tabCareer:before{-webkit-animation-delay:2s;animation-delay:2s;-webkit-animation-duration:1s;animation-duration:1s}@media all and (min-width:1025px){#wrapper #index .tabCareer:before{-webkit-animation-duration:.7s!important;animation-duration:.7s!important}}#wrapper #index .tabCareer .top-bg .circle{-webkit-transition:-webkit-transform 2s 2.6s cubic-bezier(.7,0,.3,1);transition:-webkit-transform 2s 2.6s cubic-bezier(.7,0,.3,1);-o-transition:transform 2s 2.6s cubic-bezier(.7,0,.3,1);transition:transform 2s 2.6s cubic-bezier(.7,0,.3,1);transition:transform 2s 2.6s cubic-bezier(.7,0,.3,1),-webkit-transform 2s 2.6s cubic-bezier(.7,0,.3,1)}@media all and (min-width:1025px){#wrapper #index .tabCareer .top-bg .circle{-webkit-transition:-webkit-transform 2s 2.45s cubic-bezier(.7,0,.3,1);transition:-webkit-transform 2s 2.45s cubic-bezier(.7,0,.3,1);-o-transition:transform 2s 2.45s cubic-bezier(.7,0,.3,1);transition:transform 2s 2.45s cubic-bezier(.7,0,.3,1);transition:transform 2s 2.45s cubic-bezier(.7,0,.3,1),-webkit-transform 2s 2.45s cubic-bezier(.7,0,.3,1)}}#wrapper #index .tabCareer .top-bg .circle:after{-webkit-transition:opacity 2s 4.6s cubic-bezier(.7,0,.3,1),-webkit-transform .4s cubic-bezier(.7,0,.3,1);transition:opacity 2s 4.6s cubic-bezier(.7,0,.3,1),-webkit-transform .4s cubic-bezier(.7,0,.3,1);-o-transition:opacity 2s 4.6s cubic-bezier(.7,0,.3,1),transform .4s cubic-bezier(.7,0,.3,1);transition:opacity 2s 4.6s cubic-bezier(.7,0,.3,1),transform .4s cubic-bezier(.7,0,.3,1);transition:opacity 2s 4.6s cubic-bezier(.7,0,.3,1),transform .4s cubic-bezier(.7,0,.3,1),-webkit-transform .4s cubic-bezier(.7,0,.3,1)}@media all and (min-width:1025px){#wrapper #index .tabCareer .top-bg .circle:after{-webkit-transition:opacity 2s 4.45s cubic-bezier(.7,0,.3,1),-webkit-transform .4s cubic-bezier(.7,0,.3,1);transition:opacity 2s 4.45s cubic-bezier(.7,0,.3,1),-webkit-transform .4s cubic-bezier(.7,0,.3,1);-o-transition:opacity 2s 4.45s cubic-bezier(.7,0,.3,1),transform .4s cubic-bezier(.7,0,.3,1);transition:opacity 2s 4.45s cubic-bezier(.7,0,.3,1),transform .4s cubic-bezier(.7,0,.3,1);transition:opacity 2s 4.45s cubic-bezier(.7,0,.3,1),transform .4s cubic-bezier(.7,0,.3,1),-webkit-transform .4s cubic-bezier(.7,0,.3,1)}}#wrapper #index .tabCareer .bottom-bg .line-back .inner{-webkit-animation:drive 2s 5.1s linear infinite forwards;animation:drive 2s 5.1s linear infinite forwards}@media all and (min-width:1025px){#wrapper #index .tabCareer .bottom-bg .line-back .inner{-webkit-animation:drive 2s 4.95s linear infinite forwards;animation:drive 2s 4.95s linear infinite forwards}}#wrapper #index .white-block{stroke-dashoffset:500;stroke-dasharray:500;fill:transparent;-webkit-animation:6s whiteBlock cubic-bezier(.7,0,.3,1) forwards infinite;animation:6s whiteBlock cubic-bezier(.7,0,.3,1) forwards infinite}#wrapper #index .white-block:nth-child(1){-webkit-animation-delay:2.6s;animation-delay:2.6s}@media all and (min-width:1025px){#wrapper #index .white-block:nth-child(1){-webkit-animation-delay:2.45s;animation-delay:2.45s}}#wrapper #index .white-block:nth-child(2){-webkit-animation-delay:2.8s;animation-delay:2.8s}@media all and (min-width:1025px){#wrapper #index .white-block:nth-child(2){-webkit-animation-delay:2.65s;animation-delay:2.65s}}#wrapper #index .white-block:nth-child(3){-webkit-animation-delay:3s;animation-delay:3s}@media all and (min-width:1025px){#wrapper #index .white-block:nth-child(3){-webkit-animation-delay:2.85s;animation-delay:2.85s}}#wrapper #index .white-block:nth-child(4){-webkit-animation-delay:3.2s;animation-delay:3.2s}@media all and (min-width:1025px){#wrapper #index .white-block:nth-child(4){-webkit-animation-delay:3.05s;animation-delay:3.05s}}#wrapper #index .white-block:nth-child(5){-webkit-animation-delay:3.4s;animation-delay:3.4s}@media all and (min-width:1025px){#wrapper #index .white-block:nth-child(5){-webkit-animation-delay:3.25s;animation-delay:3.25s}}#wrapper .infinite-loading-container{-webkit-transition:opacity 0s 3.2s ease;-o-transition:opacity 0s 3.2s ease;transition:opacity 0s 3.2s ease}#wrapper.loading{opacity:0}#wrapper.loading .infinite-loading-container{opacity:0}#wrapper.loading #index #zoomMap:before,#wrapper.loading #index .tabBrand:before,#wrapper.loading #index .tabCareer:before,#wrapper.loading #index .tabForm:before{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-animation:none;animation:none}#wrapper.loading #index #zoomMap .cube__face,#wrapper.loading #index #zoomMap .inner-box,#wrapper.loading #index .tabBrand .cube__face,#wrapper.loading #index .tabBrand .inner-box,#wrapper.loading #index .tabCareer .cube__face,#wrapper.loading #index .tabCareer .inner-box,#wrapper.loading #index .tabForm .cube__face,#wrapper.loading #index .tabForm .inner-box{opacity:0}#wrapper.loading #index .white-block{-webkit-animation:none;animation:none}#wrapper.loading #index .top-bg .circle{-webkit-transform:translateY(50px);-ms-transform:translateY(50px);transform:translateY(50px)}#wrapper.loading #index .top-bg .circle:after{opacity:0}#wrapper.loading #fixedMap{opacity:0}#wrapper.loading #contact .big-header,#wrapper.loading #contact .contact-information,#wrapper.loading #contact .form-container,#wrapper.loading #contact .map{background:#fff}#wrapper.loading #contact .big-header:before,#wrapper.loading #contact .contact-information:before,#wrapper.loading #contact .form-container:before,#wrapper.loading #contact .map:before{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-animation:none;animation:none}#wrapper.loading #contact .big-header>*,#wrapper.loading #contact .contact-information>*,#wrapper.loading #contact .form-container>*,#wrapper.loading #contact .map>*{opacity:0}#wrapper.loading #service .big-header:before,#wrapper.loading #service .single-service:before{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-animation:none;animation:none}#wrapper.loading #service .big-header .inner,#wrapper.loading #service .big-header .title,#wrapper.loading #service .big-header .vicetitle,#wrapper.loading #service .single-service .inner,#wrapper.loading #service .single-service .title,#wrapper.loading #service .single-service .vicetitle{opacity:0}#wrapper.loading #career .big-header:before,#wrapper.loading #career .main-box:before{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-animation:none;animation:none}#wrapper.loading #career .big-header .career,#wrapper.loading #career .big-header .inner-box,#wrapper.loading #career .big-header .note-btn,#wrapper.loading #career .big-header .tabpanel,#wrapper.loading #career .big-header .title,#wrapper.loading #career .big-header .vicetitle,#wrapper.loading #career .main-box .career,#wrapper.loading #career .main-box .inner-box,#wrapper.loading #career .main-box .note-btn,#wrapper.loading #career .main-box .tabpanel,#wrapper.loading #career .main-box .title,#wrapper.loading #career .main-box .vicetitle{opacity:0}#wrapper.loading #about .about-container:before,#wrapper.loading #about .banner:before{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-animation:none;animation:none}#wrapper.loading #about .about-container .gallery,#wrapper.loading #about .about-container .infomation,#wrapper.loading #about .about-container .inner,#wrapper.loading #about .about-container .main-info,#wrapper.loading #about .about-container .swiper-container,#wrapper.loading #about .about-container .swiper-pagination,#wrapper.loading #about .banner .gallery,#wrapper.loading #about .banner .infomation,#wrapper.loading #about .banner .inner,#wrapper.loading #about .banner .main-info,#wrapper.loading #about .banner .swiper-container,#wrapper.loading #about .banner .swiper-pagination{opacity:0}#wrapper.loading #single-project .info-container:before,#wrapper.loading #single-project .intro-container:before{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-animation:none;animation:none}#wrapper.loading #single-project .info-container .inner-box,#wrapper.loading #single-project .info-container .main-content,#wrapper.loading #single-project .info-container .other-project,#wrapper.loading #single-project .intro-container .inner-box,#wrapper.loading #single-project .intro-container .main-content,#wrapper.loading #single-project .intro-container .other-project{opacity:0}#wrapper.loading .nav .logo .rectangle,#wrapper.loading .nav .marquee-part .marquee,#wrapper.loading .nav .projectList a,#wrapper.loading .nav .time #currentTime,#wrapper.loading .nav .time .clock,#wrapper.loading .nav .weather #currentTemp{opacity:0}#wrapper.loading .nav .logo:before,#wrapper.loading .nav .marquee-part:before,#wrapper.loading .nav .projectList:before,#wrapper.loading .nav .time:before,#wrapper.loading .nav .weather:before{-webkit-transform:scale(1,1) translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0);-webkit-animation:none;animation:none}@media all and (min-width:1025px){body.home,body.page-template-page-about{overflow:hidden;height:100%;width:100%}}</style>
+    <!-- <link rel="stylesheet" type="text/css" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/css/main.min-ver-1.1.1.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/css/main.min.css">
+</head>
+<body ontouchstart="" class="blog-template-default single single-blog postid-1176 has-header-image has-sidebar colors-light"><div class="loading" id="animationShape">
+      <div class="shape"></div>
+      <div class="shape"></div>
+      <div class="center-box">
+        <div class="block"></div><div class="block"></div><div class="block"></div><div class="block"></div><div class="block"></div>
+      </div>
+</div>
+<div id="wrapper" class="loading">
+<header id="header">
+	<div class="nav">
+    <a class="logo" href="https://blockstudio.tw/">
+      <div class="rectangle">
+        <div class="cube__face cube__face--front">
+          <img src="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/img/BS-logo-blue.svg" alt="blockstudio">
+        </div>
+        <div class="cube__face cube__face--right"></div>
+        <div class="cube__face cube__face--top"></div>
+      </div>
+    </a>
+    <div class="phone-gap"></div>
+    <div class="time">
+      <div id="currentTime" class="currentTime">{{currentHour}}<span class="dots">:</span>{{currentMinute}}<span class="dots">:</span>{{currentSecond}}</div>
+      <div class="clock">
+         <div class="hour" :class="'rotate-'+Math.ceil(hour % 12 / 12 * 360+(minute*6 / 12))"></div>
+         <div class="minute" :class="'rotate-'+minute*6"></div>
+         <div class="second" :class="'rotate-'+second*6"></div>
+      </div>
+    </div>
+    <div class="weather">
+       <div id="currentTemp" class="currentTemp">{{currentTemperature}}°<span class='deg'>C</span></div>
+    </div>
+    <div class="marquee-part">
+      <div class="marquee">
+        <div class="box">
+          <div class="text-container">
+             <div class="running-text">▉ Every element is a plate, present oneself but also extrude others to create a new possibility.</div><div class="running-text">▉ Every element is a plate, present oneself but also extrude others to create a new possibility.</div><div class="running-text">▉ Every element is a plate, present oneself but also extrude others to create a new possibility.</div>          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="projectList"><a href="https://blockstudio.tw/project/" v-if="pageType==='index' || pageType==='contact'"><span>作品列表</span></a><a href="https://blockstudio.tw/contact/" v-else><span>專案詢問</span></a></div>
+		<div id="hamburger" :class="menu? 'active' :'in-active'" v-on:click="toggle_menu">
+          <div class="hamburger-box">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+          </div>
+    </div> 
+    <div id="menu"  :class="menu? 'active' :'in-active'" class="ps">
+      <div class="remove-back" @click="close_menu"></div>
+      <div class="navigation">
+            <div class="menu-container">
+                <div class="menu-nav">
+                  <ul>
+                    <li>
+                      <a href="https://blockstudio.tw/project/">
+                        <div class="en">Projects</div>
+                        <div class="zh">專案列表</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://blockstudio.tw/service/">
+                        <div class="en">Service</div>
+                        <div class="zh">服務項目</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://blockstudio.tw/blog/" target="_blank">
+                        <div class="en">Blog</div>
+                        <div class="zh">部落格</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://blockstudio.tw/career/">
+                        <div class="en">Career</div>
+                        <div class="zh">徵人頻道</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://blockstudio.tw/about/">
+                        <div class="en">About</div>
+                        <div class="zh">關於我們</div>
+                      </a>
+                    </li>
+                    <!-- <li class="empty">
+                      <a>
+                      <a href="#" target="_blank">
+                        <div class="en">Blog</div>
+                        <div class="zh">部落格</div>
+                      </a>
+                    </li> -->
+                  </ul>
+                </div>
+                <div class="menu-info">
+                    <div class="info">
+                      <div class="content"><span>Tel.</span><a href="tel:02-2885-8586">02-2885-8586</a></div>
+                      <div class="content"><span>Email.</span><a href="mailto:info@blockstudio.tw">info@blockstudio.tw</a></div>
+                      <div class="content"><span>Taipei, Taiwan</span>11170 台北市士林區前港街11號3樓</div>
+                      <div class="content">3F., No. 11, Qiangang St., Shilin Dist., Taipei City 111, Taiwan </div>
+                    </div>
+                    <div class="media">
+                      <div class="media-box"><a href="https://www.facebook.com/blockstudiotw" target="_blank"><i class="icon-facebook"></i></a></div>
+                      <div class="media-box"><a href="https://www.instagram.com/blockstudiotw/" target="_blank"><i class="icon-instagram"></i></a></div>
+                      <div class="media-box"><a href="https://www.behance.net/blockstudiotw" target="_blank"><i class="icon-behance"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-container">
+                <div class="form-title-en">FORM</div>
+                <div class="form-title-zh">專案詢問</div>
+                <div class="form-alert">請透過表單詢問案件<br>我們會以Email回覆或是直接與您電話聯絡</div>
+               <contact-form :form-name="'navContactForm'" :form-data="contactNavForm" :lang="'zh'" :lead-mail="'info@blockstudio.tw'" :result-title="['']" :final-content="'已送出，我們會盡快聯繫您'"></contact-form>
+            </div>
+      </div><!-- navigation -->
+    </div><!-- menu -->
+	</div><!-- nav -->
+</header>
+<div id="leftnav" class="leftnav">
+ <div class="copyright">Block Studio©2018 Copyright. All Rights Reserved.</div>
+</div><main id="single-project">
+<div class="singleproject_index">
+  <div class="info-container ps -is-bd -hide-tablet">
+      <div class="inner-box">
+        <div class="basic-box">
+          <h1 class="title">OTHER</h1>
+          <p class="subtitle">其他文章</p>
+        </div>
+        <div class="split-line"></div>
+        <div class="other-post-container">
+                            <a class="other-post-card" href="https://blockstudio.tw/blog/2022-free-cms/">
+                    <span class="other-post-card__img" style="background: url('https://blockstudio.tw/2018block/main/wp-content/uploads/2022/01/comparison-of-free-network-platform_cover.jpg') center center /cover no-repeat;"></span>
+                    <span class="other-post-card__content">
+                        <span class="other-post-card__title">2022免費網站平台研究分析</span>
+                        <span class="other-post-card__infos">
+                            <span class="other-post-card__date">2022/01/28</span>
+                            <span class="other-post-card__line"></span>
+                            <span class="other-post-card__category">工作方法</span>
+                        </span>
+                    </span>
+                </a>
+                            <a class="other-post-card" href="https://blockstudio.tw/blog/play-music-on-the-website/">
+                    <span class="other-post-card__img" style="background: url('https://blockstudio.tw/2018block/main/wp-content/uploads/2021/08/blockstudioblog_music_cover.jpg') center center /cover no-repeat;"></span>
+                    <span class="other-post-card__content">
+                        <span class="other-post-card__title">到網站上來玩音樂吧！</span>
+                        <span class="other-post-card__infos">
+                            <span class="other-post-card__date">2021/08/21</span>
+                            <span class="other-post-card__line"></span>
+                            <span class="other-post-card__category">作品解析</span>
+                        </span>
+                    </span>
+                </a>
+                            <a class="other-post-card" href="https://blockstudio.tw/blog/introduction-to-vr-trends/">
+                    <span class="other-post-card__img" style="background: url('https://blockstudio.tw/2018block/main/wp-content/uploads/2022/01/introduction-to-vr-trends_cover.jpg') center center /cover no-repeat;"></span>
+                    <span class="other-post-card__content">
+                        <span class="other-post-card__title">網站上的VR趨勢介紹與精選作品</span>
+                        <span class="other-post-card__infos">
+                            <span class="other-post-card__date">2022/01/18</span>
+                            <span class="other-post-card__line"></span>
+                            <span class="other-post-card__category">網站趨勢</span>
+                        </span>
+                    </span>
+                </a>
+                            <a class="other-post-card" href="https://blockstudio.tw/blog/sitemap-wireframe-prototype-intro/">
+                    <span class="other-post-card__img" style="background: url('https://blockstudio.tw/2018block/main/wp-content/uploads/2022/03/sitemap-wireframe-prototype-intro_cover.jpg') center center /cover no-repeat;"></span>
+                    <span class="other-post-card__content">
+                        <span class="other-post-card__title">推動專案的幕後功臣： Sitemap/Wireframe是什麼？Prototype可以怎麼做？</span>
+                        <span class="other-post-card__infos">
+                            <span class="other-post-card__date">2022/03/01</span>
+                            <span class="other-post-card__line"></span>
+                            <span class="other-post-card__category">工作方法</span>
+                        </span>
+                    </span>
+                </a>
+                    </div>
+        <section class="desc-box">
+            <div class="desc">
+                <a href="https://blockstudio.tw/blog/">回文章列表</a>
+            </div>
+        </section>
+      </div>
+  </div>
+  <div class="intro-container -full-tablet">
+    <div class="main-content">
+        <div class="blog-banner"><img src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/動態特效網站規則SOP.jpg" alt=""></div>
+        <div class="blog-content">
+            <div class="blog-title">
+                <p class="title">動態特效網站規則 SOP</p>
+                <div class="blog-infos">
+                    <div class="blog-infos__item">
+                        <span class="blog-infos__item-title">日期</span>
+                        <span class="blog-infos__item-line"></span>
+                        <span class="blog-infos__item-content">2020/06/18</span>
+                    </div>
+                    <div class="blog-infos__item">
+                        <span class="blog-infos__item-title">類型</span>
+                        <span class="blog-infos__item-line"></span>
+                        <span class="blog-infos__item-content">工作方法</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content"><p>在動態特效網站這條路上跌跌撞撞也已經接近10年，對於什麼是一個好的動態特效網站，以及目前整個產業對於動態特效網站有哪些隱藏規則，我們歸納出一些邏輯與流程，也是版塊設計在發想&amp;製作一個網站所需的過程，跟大家分享！<br />
+我們把這整套稱為 <strong>「動態特效網站規則 SOP」</strong>，之所以會這樣命名是因為我們認為把握這些動態規則，或許你也可以做出一個好的酷炫帥網站！！</p>
+<p>文章會先說明<strong>「完整動態流程」</strong>，最後點出哪些是<strong>「必備動態流程」</strong>(不用完全做到，但至少這些要有)！<br />
+再開始看之前，或許大家可以先了解我們近期的作品，以及我們 官網 其他作品哦～</p>
+<p>&nbsp;</p>
+<h3>近期動態特效網站作品</h3>
+<ul>
+<li><a href="https://www.tdri.org.tw/about/" target="_blank" rel="noopener">TDRI台灣設計研究院 ─ 線上簡介 </a></li>
+<li><a href="https://therealstanlee.com/memories/" target="_blank" rel="noopener">POW! Entertainment ─ Memories</a></li>
+<li><a href="https://politicsdesign.tw/president/" target="_blank" rel="noopener">政治設計 ─  總統聊天室</a></li>
+<li><a href="https://www.kpmc.com.tw" target="_blank" rel="noopener">高雄流行音樂中心 ─ 官方網站</a></li>
+<li><a href="https://blockstudio.tw/project/" target="_blank" rel="noopener">其他作品 ─ 版塊設計官網</a></li>
+</ul>
+<hr />
+<h2>⽬錄</h2>
+<ul>
+<li>什麼是動&amp;靜態網站？</li>
+<li>動態規則：完整流程</li>
+<li>動態介紹</li>
+<li>動態規則：必備流程</li>
+<li>結語</li>
+</ul>
+<hr />
+<h2>【什麼是動&amp;靜態網站?】</h2>
+<p><strong>靜態網站</strong><br />
+網頁內的所有內容無法透過「網站管理介面」或「後端管理系統」做即時性的修改。</p>
+<p><strong style="letter-spacing: inherit;">動態網站</strong><br />
+網站內容儲存於資料庫與前端進行串接架構的網站，可以透過「網站管理介面」或「後端管理系統」做即時性的修改。</p>
+<p><strong>偽靜態網站</strong><br />
+以動態網站為基礎，將網址進行重寫，讓動態網址看起來像靜態網址。</p>
+<p><strong style="letter-spacing: inherit;">特效網站＆動態特效網站<br />
+</strong>以上主要都是針對資料拿取的方式作為動靜態網站區分的方法。<br />
+這類的網站主要是在探討表現形式，在資料面有可能屬於靜態網站或是動態網站。目前這類的網站並沒有標準名稱，在此我們就稱為動態特效網站吧！</p>
+<p>&nbsp;</p>
+<h2>【動態規則：完整流程】</h2>
+<p>這張圖由左至右，是在動態特效網站會有的流程和特效分類，基本上已經概括了目前在當前產業製作網站時會採用的所有特效類型，下列特效皆會說明並且加上作法和簡單的程式寫法建議。<br />
+這邊特別注意的是並非所有項目都要在網站上全部出現，動態特效網站必備的項目會在第四章節說明。</p>
+<p><img class="alignnone size-full wp-image-1421" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/05/網站動態規則_流程規則.jpg" alt="" width="1400" height="716" /></p>
+<h2>【動態介紹】</h2>
+<h3>A. 首頁載入動態(Loading)</h3>
+<p>&nbsp;</p>
+<p><img class="alignnone size-full wp-image-1463" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/motion-載入5.gif" alt="" width="1097" height="320" /></p>
+<p>網站 <strong>從首頁 </strong>進入前的循環(Cycle)動態。<br />
+目的是利用循環小動態視覺上讓網站加載時看起來不這麼久。有時也會利用百分比動態滿足操作者預期心理，以解決使用者等待中離的可能。<br />
+首頁的載入動態可簡單可複雜，一般來說首頁的載入動態可以稍微複雜一點 (但還是看網站目的性)。</p>
+<p><strong>常見作法</strong><br />
+視覺面：使用品牌Logo或能夠貫穿全站的視覺元素作為圖像。<br />
+動態面：持續循環、百分比倒數、任何有開始&amp;結束的視覺動態。</p>
+<p><strong>建議<br />
+</strong>◖ 循環動態持續期間：約1秒~1.5秒/循環1次。<br />
+◖ 快速作法：最單純的圓形，可以先從Codepen上找比較快。<br />
+◖ 快速作法舉例：<a href="https://codepen.io/aurer/full/jEGbA" target="_blank" rel="noopener">https://codepen.io/aurer/full/jEGbA</a></p>
+<p><strong>提醒</strong><br />
+百分比動態使用時機：判斷網站大小，加載1秒~3秒 → 不需要放 , 超過3秒以上 → 需要放。</p>
+<p><strong>舉例<br />
+</strong></p>
+<div id='gallery-1' class='gallery galleryid-1176 gallery-columns-2 gallery-size-thumbnail'><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<img width="400" height="250" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/05/載入動態.gif" class="attachment-thumbnail size-thumbnail" alt="" aria-describedby="gallery-1-1425" sizes="100vw" />
+			</div>
+				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-1425'>
+				出處 －https://gma-design.tv/
+				</figcaption></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<img width="400" height="250" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/05/載入動態2.gif" class="attachment-thumbnail size-thumbnail" alt="" aria-describedby="gallery-1-1426" sizes="100vw" />
+			</div>
+				<figcaption class='wp-caption-text gallery-caption' id='gallery-1-1426'>
+				出處 －https://iconic-gaming.com/
+				</figcaption></figure>
+		</div>
+
+<p><strong> </strong></p>
+<p>&nbsp;</p>
+<h3>B. 轉場動態</h3>
+<p><img class="alignnone size-full wp-image-1455" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/motion-轉場.gif" alt="" width="1097" height="320" /></p>
+<p>與「首頁載入動態」意義相仿，但 <strong>不是從首頁 </strong>進入的頁面，都需要加上「轉場動態」。<br />
+舉個例子，如果當使用者每個頁面進入時都要跑百分比或複雜的載入動態時，會讓人更容易失去耐心或是眼花撩亂，甚至離開網站。所以此動態應該 <strong>越快速、越簡單 </strong>越好。</p>
+<p><strong>常見作法<br />
+</strong>◖ 視覺面：單純造型、品牌Logo或能夠貫穿全站的視覺元素作為圖像。<br />
+◖ 動態面：持續循環、慢速閃爍。</p>
+<p><strong>建議<br />
+</strong>◖ 要做不做都可以，越簡單越好！<br />
+◖ 快速作法：大畫面色塊由左而右刷過去也可以。</p>
+<p>&nbsp;</p>
+<h3>C. 進場動態</h3>
+<p><img class="alignnone size-full wp-image-1456" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/motion-進場.gif" alt="" width="1097" height="320" /></p>
+<p>載入動態結束後，全畫面的物件即將要出現時所採用的任何形式，皆為進場動態。<br />
+可根據畫面來設計進場腳本，增加瀏覽體驗的細節，這非常重要給五顆心★★★★★</p>
+<p><strong>常見作法<br />
+</strong>動態面：淡入、位移、放大縮小、色塊遮擋</p>
+<p><strong>建議</strong><br />
+◖ 依據畫面元素「資訊輕重」、「圖片吸引力」、「版面配置」做順序進場。<br />
+◖ 建議全站都可以加入進場動態，但須制定全站頁面共用的腳本&amp;形式，否則太多種腳本或形式反而會容易導致視覺疲乏。<br />
+◖ 進場時間：控制在約2秒內。<br />
+◖ 快速作法：在網站CSS程式中的最外層加入透明度(opacity) 0~1淡入 或 全畫面物件依序左右進入。</p>
+<p>&nbsp;</p>
+<h3>D. 代表(主要)動態</h3>
+<p><img class="alignnone size-medium wp-image-1457" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/motion-代表.gif" alt="" width="1097" height="320" /></p>
+<p>網站中最核心必要的設定，必須讓人印象最深刻的主要動態。<br />
+此動態的吸睛度、視覺複雜度、獨特性在全站當中數一數二。這類的動態，往往會讓使用者逛完網站離開後還是印象深刻，還會突然在某一天回想起來，我們統稱為代表動態。</p>
+<p><strong>作法<br />
+</strong>◖ 通常放在首頁第一塊視覺面的位置。<br />
+◖ 根據該品牌、形象，去想這個網站我要玩什麼動態。<br />
+◖ 你心中還沒玩過但想玩的動態去做發想。</p>
+<p><strong>建議<br />
+</strong>基本上，全站通常只要有1個代表動態就夠囉！<br />
+（但還是可以依據網站目的性，會有兩個動態的可能。）</p>
+<p><strong>舉例<br />
+</strong></p>
+<div id='gallery-2' class='gallery galleryid-1176 gallery-columns-2 gallery-size-thumbnail'><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<img width="400" height="250" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/主動態2.gif" class="attachment-thumbnail size-thumbnail" alt="" aria-describedby="gallery-2-1465" sizes="100vw" />
+			</div>
+				<figcaption class='wp-caption-text gallery-caption' id='gallery-2-1465'>
+				出處 － https://www.artiluxtech.com/
+				</figcaption></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<img width="400" height="250" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/主動態.gif" class="attachment-thumbnail size-thumbnail" alt="" aria-describedby="gallery-2-1464" sizes="100vw" />
+			</div>
+				<figcaption class='wp-caption-text gallery-caption' id='gallery-2-1464'>
+				出處 －https://gma-design.tv/
+				</figcaption></figure>
+		</div>
+
+<p><strong> </strong></p>
+<p>&nbsp;</p>
+<h3>E. 持續動態</h3>
+<p><img class="alignnone size-full wp-image-1458" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/motion-持續.gif" alt="" width="1097" height="320" /></p>
+<p><span style="font-size: 15px; letter-spacing: inherit;">為吸引使用者目光 或 增加畫面動感豐富度而持續Loop的動態。也可能是為符合主要動態的要求而制定。</span><br />
+最經典的持續動態就是「跑！馬！燈！」。這個萬年不敗的特效近期都還有在流行，像我們的<a href="https://blockstudio.tw/" target="_blank" rel="noopener">官網</a>上方就是跑馬燈設計。</p>
+<p><strong>建議<br />
+</strong>比例不超過該畫面10%</p>
+<p><strong>注意<br />
+</strong>須慎選持續動態的程式作法，因為這也是最容易造成網站速度變慢主因！盡量避免全畫面都在動，除了會影響效能也可能造成視覺疲乏。</p>
+<p>&nbsp;</p>
+<h3>F. 回饋動態(Hover)</h3>
+<p><img class="alignnone size-full wp-image-1459" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/motion-回饋.gif" alt="" width="1097" height="320" /></p>
+<p>當滑鼠游標 <strong>移過(move) </strong>這個物件需傳達給使用者 <strong>是可點擊 </strong>或 <strong>是有意義 </strong>的。<br />
+最常見的就是滑鼠移至按鈕上，按鈕呈現的視覺變化，就是回饋動態！</p>
+<p><strong>常見作法<br />
+</strong>視覺面：變色、透明度改變、文字替換。<br />
+動態面：微幅位移、放大縮小、附加物(出現另一個物件)...等。</p>
+<p><strong>建議</strong><br />
+快速作法：一點點位移(10px)、透明度(opacity)調整。</p>
+<p><strong>案例<br />
+</strong></p>
+<div id='gallery-3' class='gallery galleryid-1176 gallery-columns-2 gallery-size-thumbnail'><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<img width="400" height="250" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/回饋動態2.gif" class="attachment-thumbnail size-thumbnail" alt="" aria-describedby="gallery-3-1467" sizes="100vw" />
+			</div>
+				<figcaption class='wp-caption-text gallery-caption' id='gallery-3-1467'>
+				出處 － https://dwl.media/
+				</figcaption></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<img width="400" height="250" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/回饋動態.gif" class="attachment-thumbnail size-thumbnail" alt="" aria-describedby="gallery-3-1469" sizes="100vw" />
+			</div>
+				<figcaption class='wp-caption-text gallery-caption' id='gallery-3-1469'>
+				出處 －https://www.thepentool.co/visualdatapack
+				</figcaption></figure>
+		</div>
+
+<p><strong> </strong></p>
+<p>&nbsp;</p>
+<h3>G. 滾動動態</h3>
+<p><img class="alignnone size-full wp-image-1454" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/motion-滾動.gif" alt="" width="1097" height="320" /></p>
+<p>根據設計腳本依序呈現，通常使用於「資訊過多」、「需提示性」、「需表達資訊輕重」的畫面。<br />
+也有許多時候用在用故事型敘述資訊的網站中，例如我們之前做過的案例 ─ <a href="https://www.tdri.org.tw/about/" target="_blank" rel="noopener">設計研究院簡介</a></p>
+<p><strong>常見技術<br />
+</strong>◖ ScrollMagic：<br />
+<a href="https://scrollmagic.io/" target="_blank" rel="noopener">https://scrollmagic.io/</a><br />
+◖ GSAP：<br />
+<a href="https://greensock.com/scrolltrigger/" target="_blank" rel="noopener">https://greensock.com/scrolltrigger/</a><strong><br />
+</strong></p>
+<p><strong>建議</strong><br />
+◖ 動態觸發點：建議於畫面由上往下約80%高度之處觸發，較可符合多種瀏覽器高度。<br />
+◖ 快速作法：物件淡入、物件位移。</p>
+<p>&nbsp;</p>
+<h3>H. 游標動態</h3>
+<p><img class="alignnone size-full wp-image-1453" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/motion-游標.gif" alt="" width="1097" height="320" /></p>
+<p>類上述的回饋動態(Hover)，但回饋動態(Hover)的反應是觸發在物件上，游標動態是觸發在鼠標上。<br />
+這類動態是這幾年趨勢，除了具提示作用，更有延伸資訊功能。</p>
+<p><strong>建議<br />
+</strong>◖ 可根據該物件「特性」做相對應提示。<br />
+◖ 這效果容易造成遮擋或是Z-index層級問題，須多考慮「作動範圍」、「變化效果大小」。<strong><br />
+</strong></p>
+<p><b>限制</b><br />
+僅限有滑鼠的裝置看得到。</p>
+<p><strong>舉例<br />
+</strong></p>
+<div id='gallery-4' class='gallery galleryid-1176 gallery-columns-2 gallery-size-thumbnail'><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<img width="400" height="250" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/游標動態.gif" class="attachment-thumbnail size-thumbnail" alt="" aria-describedby="gallery-4-1470" sizes="100vw" />
+			</div>
+				<figcaption class='wp-caption-text gallery-caption' id='gallery-4-1470'>
+				出處 － https://powentertainment.com/
+				</figcaption></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<img width="400" height="250" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/游標動態2.gif" class="attachment-thumbnail size-thumbnail" alt="" aria-describedby="gallery-4-1471" sizes="100vw" />
+			</div>
+				<figcaption class='wp-caption-text gallery-caption' id='gallery-4-1471'>
+				出處 －https://www.peststopboys.co.uk/
+				</figcaption></figure>
+		</div>
+
+<p>&nbsp;</p>
+<h3>I. 點擊動態</h3>
+<p><img class="alignnone size-full wp-image-1450" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/motion-點擊.gif" alt="" width="1097" height="320" /></p>
+<p>滑鼠點擊(Click or Hold)之後，被點擊物所產生的反饋效果，可能是音效、位移、大小...之類。<br />
+這動態比較少看到，算是增加互動或特殊記憶的作法。</p>
+<p>&nbsp;</p>
+<h3>J. 設備動態</h3>
+<p><img class="alignnone size-full wp-image-1452" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/motion-設備.gif" alt="" width="1097" height="320" /></p>
+<p>設備動態目前不是主流，但可作為新媒體開發的媒介或是網站的彩蛋使用。</p>
+<p><strong>鍵盤：</strong>可根據該物件「特性」做相對應提示。<br />
+<strong>陀螺儀（手機）：</strong>行動裝置專屬，視差、顯示隱藏物件。<strong><br />
+</strong><strong style="letter-spacing: inherit;">鏡頭(特殊)：</strong>偵測深度、晃動。<span style="font-size: 15px; letter-spacing: inherit;"><br />
+<strong>麥克風(特殊)：</strong>錄音、音量大小聲。<br />
+</span><strong>手機(特殊)：</strong>AR、VR、多畫面控制。</p>
+<p><strong>案例<br />
+</strong></p>
+<div id='gallery-5' class='gallery galleryid-1176 gallery-columns-2 gallery-size-thumbnail'><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<img width="400" height="250" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/裝置動態2.gif" class="attachment-thumbnail size-thumbnail" alt="" sizes="100vw" />
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<img width="400" height="250" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/裝置動態.gif" class="attachment-thumbnail size-thumbnail" alt="" aria-describedby="gallery-5-1472" sizes="100vw" />
+			</div>
+				<figcaption class='wp-caption-text gallery-caption' id='gallery-5-1472'>
+				出處－https://bit.ly/2CnlcNo
+				</figcaption></figure>
+		</div>
+
+<p>&nbsp;</p>
+<h3>K. 離場動態</h3>
+<p><img class="alignnone size-full wp-image-1451" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/06/motion-離場.gif" alt="" width="1097" height="320" /></p>
+<p>離場動態 與 進場動態 其實就是意義類似，但一個是開始一個是結束的動態效果，會出現在當你點擊按鈕準備換頁前的全畫面動態。<br />
+此動態可以營造畫面不跳頁閃爍的連貫性，以達成使用者優良的視覺體驗並提升許多質感。但要製作此離場動畫，會需要在網站程式上使用無換頁網站(SPA)的方式製作，不過SPA作法就會有資料維護上的限制。雖然也有其他替代的程式作法，可以讓視覺上看起來是無換頁...這下次我們專門做一集文章跟大家解釋(老高出現)。</p>
+<p>＊無換頁=指的是網站在頁面切換時不會有閃爍跳轉的呈現</p>
+<p><strong>常見作法<br />
+</strong>◖ 可以進場動態相反方式離場，或是蓋板方式。<br />
+◖ 時間：1秒。</p>
+<p><strong>建議<br />
+</strong>切記！離場動態一定要短暫，如果有載入動態，又有進場動態，現在再加入離場，整體體驗會非常不好。</p>
+<p>&nbsp;</p>
+<h2>【動態規則：必備流程】</h2>
+<p><img class="alignnone size-full wp-image-1424" src="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/05/網站動態規則_流程規則_active.jpg" alt="" width="1400" height="716" srcset="https://blockstudio.tw/2018block/main/wp-content/uploads/2020/05/網站動態規則_流程規則_active.jpg 1400w, https://blockstudio.tw/2018block/main/wp-content/uploads/2020/05/網站動態規則_流程規則_active-768x393.jpg 768w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 1400px" /></p>
+<p>如同一開始所述，網站上不一定有出現所有的動態流程和特效，藍底白字標示起來的項目是我們在製作專案時，認為動態特效網站幾個必備的環節。有了這些特效和流程，會讓整體網站除豐富度增加以外，使用者體驗感受也會增添不少質感與細節。</p>
+<p>&nbsp;</p>
+<hr />
+<h2>總結</h2>
+<p class="p1"><span class="s1">動態特效是網站設計其中一種手法，在流程和特效上的使用還是必須看專案的「目的性」、「客戶性質」、「網站使用情境」、「網站架構」以及「自己的技術含量」，以上條件綜合評估後，再決定是否採用。</span></p>
+<p>關於 <strong>如何判斷當前專案是否要製作動態特效網站的標準</strong>，這下次我們專門做一集文章跟大家解釋(老高出現)。</p>
+<p>&nbsp;</p>
+</div>
+            <div class="share-box">
+                <p class="share-box__line"></p>
+                <p class="share-box__title">分享此篇文章</p>
+                <p class="share-box__line"></p>
+                <p class="share-box__content">
+                    <a class="share-box__item" href="http://www.facebook.com/sharer.php?u=https://blockstudio.tw/blog/web-animation-sop/" target="_blank" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=600');return false;" rel="nofollow noopener noreferrer"><i class="icon-facebook"></i></a>
+                    <a class="share-box__item" href="http://twitter.com/share?url=https://blockstudio.tw/blog/web-animation-sop/" target="_blank"><i class="icon-twitter"></i></a>
+                </p>
+            </div>
+                            <div class="post-navigation">
+                                            <a class="post-navigation__item -prev" href="https://blockstudio.tw/blog/2020-internship/">
+                            <i class="post-navigation__icon icon-left-open-big"></i>
+                            <span class="post-navigation__direction">上一篇</span>
+                            <span class="post-navigation__title">版塊設計 2020 實習計畫</span>
+                        </a>
+                                        <a class="post-navigation__item -back" href="https://blockstudio.tw/blog/">
+                        <span class="post-navigation__direction">回文章列表</span>
+                    </a>
+                                            <a class="post-navigation__item -next" href="https://blockstudio.tw/blog/animation-poster/">
+                            <span class="post-navigation__direction">下一篇</span>
+                            <span class="post-navigation__title">用程式寫的動態海報</span>
+                            <i class="post-navigation__icon icon-right-open-big"></i>
+                        </a>
+                                    </div>
+                    </div>
+    </div>
+  </div>
+  <div class="img-popup" @click.self="closeBlogImgModal">
+    <div class="img-popup__container">
+        <img src="http://localhost/display/2018block/main/wp-content/uploads/2017/04/hiihub-gallery-signage-15.jpg" alt="">
+        <div class="img-popup__loading">
+            <div class="icon -round">
+                <svg class="icon__round-box" x="0px" y="0px" viewBox="0 0 150 150">
+                    <circle class="icon__round-circle" cx="75" cy="75" r="60"></circle>
+                </svg>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+</main>
+
+
+<footer :class="scrollStatus">
+	<div class="nav">
+		<a class="fb" href="https://www.facebook.com/blockstudiotw" target="_blank">
+			<div class="rectangle">
+			  <div class="cube__face cube__face--front">
+			    <i class="icon-facebook"></i>
+			  </div>
+			  <div class="cube__face cube__face--right"></div>
+			  <div class="cube__face cube__face--top"></div>
+			</div>
+		</a>
+		<div class="infomation">
+			<div class="phone"><a href="tel:02-2885-8586">02-2885-8586</a></div>
+			<div class="mail"><a href="mailto:info@blockstudio.tw">info@blockstudio.tw</a></div>
+			<div class="gap"></div>
+			<div class="location">
+				<div class="address">11170 台北市士林區前港街11號3樓</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+<script type="text/javascript">
+var articlesData=[],
+    siteName='版塊設計 Block Studio',
+    templatePath='https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/',
+    adminAjaxUrl='https://blockstudio.tw/2018block/main/wp-admin/admin-ajax.php',
+    pageType='single';
+</script>
+<script src="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/js/libs.js"></script>
+<template id="pureDropDownTemplate" class="d-none">
+<div v-clickoutside="close" class="drop-down" :class="classCheck" @click="toggle">
+  <slot name="title" :item="list" :label="mainLabel">
+    <div class="title" v-html="mainLabel"></div>
+  </slot>
+  <div class="drop-down-menu">
+    <ul v-if="list"><slot name="choice" :item="list" :value="value"></slot></ul>
+    <ul v-else><slot name="choice" ></slot></ul>
+  </div>
+</div>
+</template><template id="formTemplate" class="d-none">
+<form class="form-group noStepForm" :id="'form--'+formName">
+  <slot name="form-header"></slot>
+  <transition name="form-fade">
+    <result :form-data="[formData]" :lang="lang" v-if="isSuccess" :result-title="resultTitle" :final-content="finalContent"></result>
+  </transition>
+  <transition name="form-fade">
+    <form-fields :form-name="formName" :form-data="formData" :lang="lang" v-if="!isSuccess" ref="fields" @clear-event="clearMsg"></form-fields>
+  </transition>
+  <div v-if="isSubmitting && !isSuccess" class="validation main-valid">
+    <div class="sending"></div>
+  </div>
+  <div class="formBottom">
+    <div class="btn-group" v-if="!isSuccess">
+      <button @click="submitForm()" type="button" class="btn white-bg" v-if="!isSuccess" :class="disable ? 'able' : 'disable'"><span>{{lang=='zh'? '送出' : 'Submit'}}</span></button>
+    </div>
+  </div>
+</form>
+</template>
+<template id="resultTemplate" class="d-none">
+<div class="result">
+  <div v-for="(result,key) in formData" class="single-result">
+      <div class="big-title" v-if="resultTitle[key]">{{resultTitle[key]}}</div>
+      <div v-for="(field,key) in result" v-if="field.label" class="field-result" :class="key+'-type'">
+          <div class="result-label">{{field.label[lang]}}</div>
+          <div class="result-content">
+                <span v-if="field.type!=='checkbox' && field.type!=='radio'">{{field.value}}</span>
+                <span v-if="field.type==='radio'" v-html="field.choices[field.value].label[lang]"></span>
+                <template v-for="check in field.value" v-if="field.type==='checkbox'"><span v-html="field.choices[check].label[lang]"></span><span class="split"> / </span></template>
+          </div>
+      </div>
+      <div class="big-title" v-if="finalContent">{{finalContent}}</div>
+  </div>
+</div>
+</template>
+<template id="formFieldsTemplate" class="d-none">
+<div :id="formName">
+  <div class="field" v-for="(field,key) in formData" v-if="field.type!='hidden'" :class="validation().classCheck(key)+' '+field.type+(field.display ?' display-'+field.display : '')+(field.direct ?' direct' : '')+' '+key">
+      <label :for="formName+'-'+key" v-html="field.label[lang]"  v-if="field.label && key!=='projectWebCost' && key!=='projectIdentityCost'"></label>
+      <label :for="formName+'-'+key" v-html="field.label[lang]"  v-if="field.choices && field.display==='dropdown' && checkProject(key)===true && key!=='projectStatus'"></label>
+      <div class="input-group">
+            <input type="text" :name="'user-'+key" v-model.lazy="field.value" class="text-input" :id="formName+'-'+key" v-if="field.type=='text' && field.validMethod=='required' && !field.direct" @change="validation().required(key)" :placeholder="field.placeholder[lang]" @focus="focus" @blur="blur" :autocomplete="field.autocomplete">
+            <input type="text" :name="'user-'+key" v-model.lazy="field.value" class="text-input" :id="formName+'-'+key" v-if="field.type=='text' && field.validMethod=='length' && !field.direct" @change="validation().length(key,field.validLength)" :placeholder="field.placeholder[lang]" @focus="focus" @blur="blur"  :autocomplete="field.autocomplete">
+            <div v-if="field.direct===true" class="direct-value">{{field.value}}</div> 
+            <div class="year-input" v-if="field.display==='year'" :class="year().yearClass(key)">
+                  <div class="minus"  @click="year().minus(key)">-</div>
+                  <input type="text" :name="'user-'+key" v-model.lazy="field.value" class="text-input" :id="formName+'-'+key" @change="validation().number(key)"  @focus="focus" @blur="blur"  :autocomplete="field.autocomplete">
+                  <div class="plus" @click="year().plus(key)">+</div>
+                  <div class="year">{{lang=='zh'?'年':'Year'}}</div>
+            </div>
+            <input type="text" :name="'user-'+key" v-model.lazy="field.value" class="text-input" :id="formName+'-'+key" v-if="field.type=='text' && field.validMethod=='number' && field.display!=='year' && field.display!=='ping'" @change="validation().number(key)" :placeholder="field.placeholder[lang]" @focus="focus" @blur="blur"  :autocomplete="field.autocomplete">
+            <input type="text" :name="'user-'+key" v-model.lazy="field.value" class="text-input" :id="formName+'-'+key" v-if="field.type=='text' && field.validMethod=='phone'" @change="validation().phone(key)" :placeholder="field.placeholder[lang]" @focus="focus" @blur="blur"  :autocomplete="field.autocomplete">
+            <input type="text" :name="'user-'+key" v-model.lazy="field.value" class="text-input" :id="formName+'-'+key" v-if="field.type=='text' && field.validMethod=='email'" @change="validation().email(key)" :placeholder="field.placeholder[lang]" @focus="focus" @blur="blur"  :autocomplete="field.autocomplete">
+            <textarea :name="'user-'+key" v-model.lazy="field.value" class="text-input" :id="formName+'-'+key" v-if="field.type=='textarea'" @change="validation().length(key,field.validLength)" :placeholder="field.placeholder[lang]" @keydown="textareaKeyDown" @focus="textareaFocus" @blur="textareaBlur"  :autocomplete="field.autocomplete"></textarea>
+            <div class="check-confirm" v-if="!field.choices && field.display!=='year'"></div>
+      </div>
+      <drop-down :default-label="field.placeholder[lang]" :value="field.value" :list="field.choices"  v-if="field.choices && field.display==='checkbox'">
+        <template class="d-none" slot="title" slot-scope="props">
+                  <div class="title"></div>
+        </template>
+        <template class="d-none" slot="choice" slot-scope="props">
+          <li v-for="(choice,choiceKey) in props.item"> 
+                <div class="box" :class="formModel().checkBoxClass(key,choiceKey)">
+                      <div class="radio-icon"></div>
+                      <label :for="formName+'-'+key+'-'+choiceKey" v-html="choice.label[lang]"></label>
+                      <input type="checkbox" :name="'user-'+key" v-model.lazy="field.value" :id="formName+'-'+key+'-'+choiceKey" :value="choiceKey" @change="validation().required(key)">
+                </div>
+          </li>
+        </template>
+      </drop-down>
+      <drop-down :default-label="field.placeholder[lang]" :value="field.value" :list="field.choices"  v-if="field.choices && field.display==='radio'">
+        <template class="d-none" slot="title" slot-scope="props">
+                  <div class="title"></div>
+        </template>
+        <template class="d-none" slot="choice" slot-scope="props">
+          <li v-for="(choice,choiceKey) in props.item"> 
+                <div class="box" :class="formModel().checkBoxClass(key,choiceKey)">
+                      <div class="radio-icon"></div>
+                      <label :for="formName+'-'+key+'-'+choiceKey" v-html="choice.label[lang]"></label>
+                      <input type="radio" :name="'user-'+key" v-model.lazy="field.value" :id="formName+'-'+key+'-'+choiceKey" :value="choiceKey" @change="validation().required(key)">
+                </div>
+          </li>
+        </template>
+      </drop-down>
+      <drop-down :default-label="field.placeholder[lang]" :value="field.value" :list="field.choices"  v-if="field.choices && field.display==='dropdown' && checkProject(key)===true">
+        <template class="d-none" slot="title" slot-scope="props">
+                  <div class="title"></div>
+        </template>
+        <template class="d-none" slot="choice" slot-scope="props">
+          <li v-for="(choice,choiceKey) in props.item"> 
+                <div class="box" :class="field.value==choiceKey?'active':'in-active'">
+                      <div class="radio-icon"></div>
+                      <label :for="formName+'-'+key+'-'+choiceKey" v-html="choice.label[lang]"></label>
+                      <input type="radio" :name="'user-'+key" v-model.lazy="field.value" :id="formName+'-'+key+'-'+choiceKey" :value="choiceKey" @change="validation().required(key)">
+                </div>
+          </li>
+        </template>
+      </drop-down>
+      <div class="validation"><span>{{field.msg}}</span></div>
+  </div>
+</div>
+</template><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89784226-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-89784226-1');
+</script>
+<script type="text/javascript">
+    articlesData = 'null';
+    articlesData = JSON.parse(articlesData);
+
+    $('.blog-content a').each(function(index, elem) {
+        $(elem).attr('target', '_blank')
+    })
+
+    $('.blog-content img').each(function() {
+        $('body').on('click', $(this), function(event) {
+            var img_src = $(event.target).attr('src');
+            var parent_exist = $(event.target).parents('.blog-content').length > 0
+            if (img_src !== undefined && parent_exist) {
+                $('.img-popup').addClass('open')
+                $('.img-popup__container img').attr('src', img_src)
+
+                $('.img-popup__container img').imagesLoaded(function() {
+                    $('.img-popup__container .icon').addClass('hide')
+                })
+            }
+        })
+        var target_img = $(this).attr('src');
+        $(this).css({
+            'cursor': 'pointer'
+        })
+    })
+</script>
+
+<script src="https://blockstudio.tw/2018block/main/wp-content/themes/twentyseventeen/js/main.js"></script>
+</body>
+</html>
